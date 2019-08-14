@@ -1,0 +1,149 @@
+/*General Page Code*/
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+
+	body{
+		margin:8px;
+		background-color: #F2F2F2;
+	}
+
+/*Top Meenu Code*/
+	header{
+		background-color: #0174DF;
+		height: 90px;
+		padding-top:1px;
+		padding-right:1px;
+	}
+
+	nav{
+		text-align: right;
+		margin-top: 30px;
+		margin-right: 10px;
+	}
+
+	.NavList{
+		list-style-type: none;
+	}
+
+	.NavItem{
+		display: inline-block;
+	}
+
+	.MenuLink{
+		color: white;
+		text-decoration: none;
+		margin-left: 15px;
+		font-size: 16pt;
+		display: inline-block;
+	}
+
+	.MenuLink:hover{
+		color:#FF8000;
+		text-decoration: underline;
+	}
+
+	#MenuPhoto{
+		height: 80px;
+		float: left;
+		margin-left: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+/*Main Code*/
+	main{
+		
+	}
+
+	.MainContent{
+		margin-top: 60px;
+	}
+
+	.Title{
+		margin-top: 30px;
+		height: 90px;
+		font-size: 35pt;
+		color: #0174DF;
+		line-height: 120px;
+		text-decoration: underline;
+	}
+
+/*Personal Profile Code*/
+	#ProfilePhoto{
+		height: 450px;
+	}
+
+	#PhotoContainer{
+		width: 40%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.PersonalInformation{
+		width: 54%;
+		height: 450px;
+		text-align: center;
+		font-size: 14pt;
+		color: #0174DF;
+		display: inline-block;
+		vertical-align: top;
+		line-height: 45px;
+		border: 3px #0174DF;
+		border-style: solid;
+	}
+
+	.PersonalInformationTitle{
+		margin-top: 115px;
+		text-decoration: underline;
+	}
+
+	.PesonalList{
+		list-style-type: none;
+		margin-top: 5px;
+	}
+
+/*Personal Resume Code*/
+	.HeaderOne{
+		font-size: 30pt;
+		color:#0174DF;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	#direction{
+		text-align: center;
+		font-size: 14pt;
+	}
+	.HeaderTwo{
+		font-size: 20pt;
+		color:#0174DF;
+		margin-bottom: 10px
+	}
+	.Paragraph{
+		font-size: 14pt;
+		width: 70%;
+		text-align: justify;
+		margin-bottom: 10px;
+		margin-left: 25px;
+	}
+
+	.UList{
+		list-style-type: none;
+		margin-left: 25px;
+	}
+	.ListItem{
+		font-weight: bold;
+	}
+	.StandAloneListItem{
+		margin-bottom: 10px;
+		font-size: 14pt
+	}
+
+	/*Personal Galery Code*/
+	.Images{
+		height: 300px;
+		margin-right: 20px;
+	}
+	 #FPTitle{
+		 margin-top: 20px;
+	 }
