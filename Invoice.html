@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title>Invoice</title>
+            <script src="JS/ComputerComponentData.js"></script>
+            <script src="JS/Invoice.js"></script>
+            <link href="CSS/HomeworkTwoCSS.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body onload="preparation()">
+            <header class = "StaticHeader">
+                    <a href= "ComputerComponents.html"><img id="MenuPhoto" src="Images/ComputerIcon.png" title="Computer Components"/></a>
+                        <nav>
+                            <ul class="NavList">
+                                <li class="NavItem"><a href="index.html" class="MenuLink">Homework 1</a></li>
+                            </ul>
+                        </nav>
+            </header>
+
+            <div>
+                    <div class="InvoiceTitle">
+                        Invoice
+                    </div>
+            </div>
+
+            <main id="InvoiceMain">     
+                    <div class="MainContent">
+                            <h1>Purchased Detail</h1>
+                            <hr/>
+                            <div id="DetailContainer">
+                                <div>
+                                    <div id="CompanyInfoDiv">
+                                        <span class="DetailTitles">Lion Tec</span><br>
+                                        02 BOX 408007 &emsp; &emsp; &emsp; 787-908-7356<br>
+                                        Humacao, Puerto Rico &emsp; lionTec@gmail.com<br>
+                                        00792<br>
+ 
+                                    </div>
+
+                                    <div id="ClientInfoDiv">
+                                        <div class="ClientInfoInnerDivs">
+                                            <span class="DetailTitles">Bill To</span><br>
+                                            Predro Alvarez Collazo<br>
+                                            Aamec.inc<br>
+                                            California, United Sates<br>
+                                            33878<br>
+                                        </div>
+
+                                        <div class="ClientInfoInnerDivs">
+                                            <div id="InvoiceNumberDiv">
+                                                <span class="DetailTitles">Invoice Number</span><br>
+                                                00037354838<br>
+                                            </div>
+                                            <span class="DetailTitles">Date of Issue</span><br>
+                                            <span id=DetailDate></span>
+                                        </div>
+
+                                        <div class="ClientInfoInnerDivs">
+                                            <span class="DetailTitles">Invoice Total</span><br>
+                                            <span id=DetailTotal></span>
+                                        </div>
+                                    </div>
+
+                                    <div id="TransactionInfoDiv">
+                                        <span class="DetailTitles">Transaction Details</span><br>
+                                        <span id="Subtotal" class="DetailItem"></span> <br>
+                                        <span id="Tax" class="DetailItem"></span> <br>
+                                        <span id="Total" class="DetailItem"></span> <br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h1>Purchased Components</h1>
+                            <hr/>
+                            <div id="purchasedComponents">
+                                <!--Data will be fill with javascrip-->
+                            </div>
+                    </div>
+            </main>
+    </body>
+</html>
