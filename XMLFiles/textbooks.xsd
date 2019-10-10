@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--Simple Elements-->
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="lastName" type="xs:string"/>
+    <xs:element name="website" type="xs:string"/>
+    <xs:element name="publicationYear" type="xs:string"/>
+    <xs:element name="ISBN" type="xs:string"/>
+    <xs:element name="specialWebsite" type="xs:string"/>
+    <xs:element name="edition" type="xs:string"/>
+    <xs:element name="coverType" type="xs:string"/>
+    <!--Complex Elements-->
+    <xs:element name="author">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="lastName"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="publisher">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="website"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="textbook">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"/>
+                <xs:element ref="author" maxOccurs="unbounded"/>
+                <xs:element ref="publisher"/>
+                <xs:element ref="publicationYear"/>
+                <xs:element ref="ISBN"/>
+                <xs:element name="specialWebsite" type="xs:string" minOccurs="0"/>
+                <xs:element ref="edition"/>
+                <xs:element ref="coverType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="books">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="textbook" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

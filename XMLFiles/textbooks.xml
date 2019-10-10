@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="textbooks.xsl"?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="textbooks.xsd">
+    <textbook>
+        <title>Arduino Cookbook</title>
+        <author>
+            <name>Michael</name>
+            <lastName>Margolis</lastName>
+        </author>
+        <publisher>
+            <name>O'Reilly Media</name>
+            <website>https://www.oreilly.com</website>
+        </publisher>
+        <publicationYear>2011</publicationYear>
+        <ISBN>978-0-596-80247-9</ISBN>
+        <edition>1 edition</edition>
+        <coverType>Paperback</coverType>
+    </textbook>
+    <textbook>
+        <title>Digital Systems Design Using VHDL</title>
+        <author>
+            <name>Charles</name>
+            <lastName>Roth</lastName>
+        </author>
+        <author>
+            <name>Lizy</name>
+            <lastName>John</lastName>
+        </author>
+        <publisher>
+            <name>Cengage Learning</name>
+            <website>http://www.cengage.com.pr</website>
+        </publisher>
+        <publicationYear>2017</publicationYear>
+        <ISBN>978-1305635142</ISBN>
+        <edition>3 edition</edition>
+        <coverType>Hardcover</coverType>
+    </textbook>
+</books>
